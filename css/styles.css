@@ -9,7 +9,7 @@ body{
 
 header{
   background-color: rgba(0,0,0,0.2);
-  border-radius: 45px 8px 8px 45px;
+  border-radius: 45px 45px 45px 45px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,9 +18,14 @@ header{
 }
 
 header .left-side a img{
+  justify-content: center;
   width: 80px;
-  margin-left: 6px;
+  margin-left: 20px;
   margin-top: 4px;
+}
+
+.left-side{
+  justify-items: center;
 }
 
 .rotate {
@@ -44,7 +49,10 @@ header .left-side a img{
   }
 }
 
-
+h2{
+  font-size: 30px;
+  font-weight: bold;
+}
 
 
 /*
@@ -68,12 +76,29 @@ header .right-side{
   display: flex;
 }
 
-header .right-side .nav-link-wrapper a{
-  background-color: #04AA6D;
+header .right-side .nav-link-wrapper {
+  
   border-radius: 5px;
   padding: 10px;
-  margin: 10px;
-  text-decoration:dotted;
+  margin-right: 50px;
+  text-decoration: dotted;
+  font-size: 35px;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: bold;
+  border-color: #4bb7e6;
+  color: black;
+}
+
+header .right-side1 .nav-link-wrapper {
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 120px;
+  text-decoration: dotted;
+  font-size: 35px;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: bold;
   border-color: #4bb7e6;
   color: black;
 }
